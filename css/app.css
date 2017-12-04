@@ -1,0 +1,61 @@
+h1{
+color:black;
+}
+.image-wrapper img{
+    width:200px;
+    height:200px;
+}
+.header{
+text-align: center;
+}
+.col-left{
+width:50%;
+float:left;
+}
+.col-right{
+width:50%;
+float:right;
+}
+.clear{
+clear:both;
+}
+.profile-card{
+width: 700px;
+margin:0 auto;
+border-radius: 15px 15px 0 0;
+}
+.shadow{
+box-shadow: rgba(0,0,0,0.5) 0px 5px 15px 2px;
+}
+.profile-card .card-header{
+background-image: url('img_background.png');
+padding:20px;
+position: relative;
+}
+.profile-card .card-header .profile-info{
+color:white;
+
+}
+.profile-card .card-header .img-wrapper{
+width:200px;
+height:200px;
+}
+.profile-card .card-header .img-wrapper img{
+width: 100%;;
+height:100%;
+}
+.profile-card .card-body .profile-details h2{
+text-align: center;
+}
+.profile-card .card-body .profile-details p{
+font-size: 14pt;
+text-align: center;
+}
+.overlay{
+background: url('img_background.png') no-repeat 100% 100%;
+width: 100%;
+height: 100%;
+position: absolute;
+left:0;
+top:0;
+}
